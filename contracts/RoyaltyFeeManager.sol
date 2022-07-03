@@ -48,3 +48,23 @@ contract RoyaltyFeeManager is IRoyaltyFeeManager, Ownable {
         return (receiver, royaltyAmount);
     }
 }
+
+
+
+
+    //   ┏┛ ┻━━━━━━┛ ┻┓    
+    //   ┃            ┃ 
+    //   ┃      ━     ┃ 
+    //   ┃  ┳┛     ┗┳ ┃ 
+    //   ┃            ┃ 
+    //   ┃      ┻     ┃ 
+    //   ┃            ┃ 
+    //   ┗━┓　　　┏━━━┛  
+    //     ┃　　　┃   神兽保佑  
+    //     ┃　　　┃   代码无BUG!
+    //     ┃　　　┗━━━━━━━━━┓   
+    //     ┃                ┣┓
+    //     ┃               ┏┛ 
+    //     ┗━┓ ┓ ┏━━━┳ ┓ ┏━┛   
+    //       ┃ ┫ ┫   ┃ ┫ ┫     
+    //       ┗━┻━┛   ┗━┻━┛     

@@ -557,3 +557,22 @@ contract NFTSeaExchange is INFTSeaExchange, ReentrancyGuard, Ownable {
         require(executionManager.isStrategyWhitelisted(makerOrder.strategy), "Strategy: Not whitelisted");
     }
 }
+
+
+
+    //   ┏┛ ┻━━━━━━┛ ┻┓   
+    //   ┃            ┃ 
+    //   ┃      ━     ┃ 
+    //   ┃  ┳┛     ┗┳ ┃ 
+    //   ┃            ┃ 
+    //   ┃      ┻     ┃ 
+    //   ┃            ┃ 
+    //   ┗━┓　　　┏━━━┛  
+    //     ┃　　　┃   神兽保佑  
+    //     ┃　　　┃   代码无BUG!
+    //     ┃　　　┗━━━━━━━━━┓   
+    //     ┃                ┣┓
+    //     ┃               ┏┛ 
+    //     ┗━┓ ┓ ┏━━━┳ ┓ ┏━┛   
+    //       ┃ ┫ ┫   ┃ ┫ ┫     
+    //       ┗━┻━┛   ┗━┻━┛     
