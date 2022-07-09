@@ -16,6 +16,7 @@ contract ExecutionManager is IExecutionManager, Ownable {
     EnumerableSet.AddressSet private _whitelistedStrategies;
 
     event StrategyRemoved(address indexed strategy);
+    event CurrencyRemoveWhitelist(address indexed currency);
     event StrategyWhitelisted(address indexed strategy);
 
     /**

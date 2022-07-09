@@ -17,6 +17,7 @@ contract CurrencyManager is ICurrencyManager, Ownable {
 
     event CurrencyRemoved(address indexed currency);
     event CurrencyWhitelisted(address indexed currency);
+    event CurrencyRemoveWhitelist(address indexed currency);
 
     /**
      * @notice Add a currency in the system
@@ -68,7 +69,7 @@ contract CurrencyManager is ICurrencyManager, Ownable {
     {
         uint256 length = size;
 
-        if (length > _whitelistedCurrencies.length() - cursor) {
+        if (length >= _whitelistedCurrencies.length() - cursor) {
             length = _whitelistedCurrencies.length() - cursor;
         }
 

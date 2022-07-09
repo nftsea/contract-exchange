@@ -53,7 +53,8 @@ contract NFTSeaExchange is INFTSeaExchange, ReentrancyGuard, Ownable {
         uint256 indexed tokenId,
         address indexed royaltyRecipient,
         address currency,
-        uint256 amount
+        uint256 amount，
+        uint256 target_amount
     );
 
     event TakerAsk(
@@ -66,7 +67,8 @@ contract NFTSeaExchange is INFTSeaExchange, ReentrancyGuard, Ownable {
         address collection, // collection address
         uint256 tokenId, // tokenId transferred
         uint256 amount, // amount of tokens transferred
-        uint256 price // final transacted price
+        uint256 price, // final transacted price
+        uint256 target price //target transacted price
     );
 
     event TakerBid(
